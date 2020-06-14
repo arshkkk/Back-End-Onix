@@ -1,6 +1,6 @@
 module.exports = {
-    mongoUrl:'mongodb://localhost:27017/Assignment',
+    mongoUrl:'mongodb+srv://arsh:TpBU9tUSXeHieRsc@arshfirstmongo-wx3ob.mongodb.net/Onix?retryWrites=true&w=majority',
     secretKey:'s3cr3t-k3y-f0r-@$$1gnm3nt',
-    expiresIn_JWT:'600' // Expires in 10 Minutes or 600 seconds
-
+    expiresIn_JWT:36000, // Expires in 10hr Minutes or 36000 seconds,
+    expiresIn_For_Email_Verification : 360000,
 }
